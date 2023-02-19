@@ -1,0 +1,439 @@
+h1{
+  color: rgb(158, 232, 245); 
+  font-family: verdana; 
+  font-size:300%
+}
+
+.welcome h2{
+  color: black; 
+  font-size:300%;
+  padding: 20px 100px;
+  margin: 6px 0;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+    } */
+
+
+/* Add a blue text color to links */
+
+a {
+    color: dodgerblue;
+}
+
+.box_register a {
+  margin: 20px;
+}
+
+body{
+  background-image: url('/Catwoman-IMS/images/homepage_image3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0vh;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: rgb(160, 160, 160);
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.mailmessage{
+  width: 100%;
+  background-color: rgb(158, 232, 245);
+  border: 3px solid rgb(104, 104, 104);
+  padding: 3px;
+}
+
+.loginregtag {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    padding-bottom: 24.4%;
+    background-color: rgb(158, 232, 245);
+    color: #000000;
+    font-weight: bold;
+    opacity: 0.75;
+    border: 3px solid rgb(104, 104, 104);
+}
+
+.regvacctag {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    padding-bottom: 24.4%;
+    background-color: rgb(158, 232, 245);
+    color: #000000;
+    font-weight: bold;
+    opacity: 0.75;
+    border: 3px solid rgb(104, 104, 104);
+}
+
+.usersettingstag {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    padding-bottom: 24.4%;
+    background-color: rgb(158, 232, 245);
+    color: #000000;
+    font-weight: bold;
+    opacity: 0.75;
+    border: 3px solid rgb(104, 104, 104);
+}
+
+.block {
+    display: absolute;
+    float: left;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgb(158, 232, 245);
+    padding: 5px;
+    color: #000000;
+    font-weight: bold;
+    opacity: 0.75;
+    border: 3px solid rgb(104, 104, 104);
+}
+
+
+/* Is this class used somewhere? Or can it be removed? */
+
+.block_upcvacc {
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    z-index: 1000;
+    width: 50%;
+    background-color: rgb(158, 232, 245);
+    padding: 5px;
+    color: #000000;
+    font-weight: bold;
+    opacity: 0.75;
+    border: 3px solid rgb(104, 104, 104);
+}
+
+
+/* Is this class used somewhere? Or can it be removed? */
+
+.block_histvacc {
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 70%;
+    z-index: 1000;
+    width: 50%;
+    background-color: rgb(158, 232, 245);
+    padding: 5px;
+    color: #000000;
+    font-weight: bold;
+    opacity: 0.75;
+    border: 3px solid rgb(104, 104, 104);
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #696969;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: white;
+}
+
+.nested-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.nested-table thead tr {
+  background-color: #696969;
+  color: #ffffff;
+  text-align: left;
+}
+
+.nested-table th,
+.nested-table td {
+    padding: 12px 15px;
+}
+
+.nested-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.box {
+  background-color: rgba(158, 232, 245, .75);
+  border: 2px solid rgb(104, 104, 104);
+  border-radius: 30px;
+  margin: 50px;
+  padding: 30px;
+  width: 40%;
+  color: #000000;
+  font-weight: bold;
+}
+
+.box_register {
+  background-color: rgba(250, 250, 250, .9);
+  border: 2px solid rgb(104, 104, 104);
+  border-radius: 30px;
+  margin: 50px;
+  padding: 20px;
+  width: 60%;
+  color: #000000;
+  font-weight: bold;
+}
+
+.box_faqs {
+  background-color: rgba(250, 250, 250, .9);
+  border: 2px solid rgb(104, 104, 104);
+  border-radius: 30px;
+  margin: 50px;
+  padding: 20px;
+  width: 65%;
+  color: #000000;
+  font-weight: bold;
+}
+
+.box_faqs label{
+  padding: 20px;
+}
+
+.box_register h1, .box_faqs h1 {
+  color: rgb(136, 209, 240);
+  padding: 12px 20px;
+  margin: 6px 0;
+  width: 80%;
+}
+
+.all-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box label, .box h2, .box h3, .box_register label, .box_register h2, .box_faqs h2 {
+  padding: 12px 20px;
+  margin: 6px 0;
+  width: 80%;
+}
+
+.box input[type=text],.box input[type=password],.box input[type=date], .box_register input[type=text], .box_register input[type=password], .box_register input[type=date] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.box_about {
+  background-color: rgba(250, 250, 250, .9);
+  border: 2px solid rgb(104, 104, 104);
+  border-radius: 30px;
+  margin: 50px;
+  padding: 30px;
+  width: 80%;
+  height: 50%;
+  color: #000000;
+  font-weight: bold;
+}
+
+.box_about h2{
+  color: rgb(136, 209, 240);
+  font-weight: bold;
+}
+
+.box button[type=submit], .box button[type=reset] {
+  width: 30%;
+  background-color: whitesmoke;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.box_register button[type=submit], .box_register button[type=reset]{
+  width: 25%;
+  background-color: whitesmoke;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.box button[type=submit]:hover, .box button[type=reset]:hover {
+  background-color: rgb(250,250,250, .6);
+}
+
+.box_register button[type=submit]:hover, .box_register button[type=reset]:hover {
+  background-color: rgb(250,250,250, .6);
+  border: 1px solid rgb(104, 104, 104, .6);
+}
+
+.row, .column {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.box input,
+.box textarea, .box_register input,
+.box_register textarea {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+.input-wrap {
+  position: relative;
+}
+.input-wrap .input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.width-machine {
+  /*   Sort of a magic number to add extra space for number spinner */
+  padding: 0 1rem;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.block2 {
+  display: absolute;
+  float: left;
+  z-index: 1000;
+  width: 100%;
+  background-color: rgb(158, 232, 245);
+  padding: 5px;
+  color: #000000;
+  font-weight: bold;
+  opacity: 0.75;
+  border: 3px solid rgb(104, 104, 104);
+ }
+
+.block2 button[type=submit] {
+  width: 10%;
+  background-color: white;
+  color: #000000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.homepage {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.homepage h2, .homepage h3, .homepage h5 {
+  padding: 5px 100px;
+  margin: 6px 0;
+  width: 80%;
+  bottom: 5%;
+}
+
+span{
+  display: inline-block;
+  font-weight: bolder;
+  animation: mover 6s linear infinite;
+  bottom: 300%;
+  transform: translatey(300%);
+  }
+
+  .button1 {
+    width: 160px;
+    border-radius: 10px;
+    padding: 14px 20px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #161816;
+  }
+  
+  .button1:hover {
+    background-color: #161816;
+    color: white;
+  }
+
+  .box select[type=number] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+
+
+  
+ 
+

@@ -1,0 +1,4 @@
+Healthcare worker ska ha foreign key av healthcare authority
+Report vilket vaccine foreign key
+Report vilken healthcare worker som gav foreign key
+Report vilken patient som fick vaccinet foregin key

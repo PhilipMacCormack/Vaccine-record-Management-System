@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#2").hide();
+  $("#1").click(function(){
+    $("#2").toggle();
+  });
+});
+</script>
+
+<script>
+  $(document).ready(function(){
+    $("#4").hide();
+    $("#3").click(function(){
+      $("#4").toggle();
+    });
+  });
+  </script>
+
+<script>
+  $(document).ready(function(){
+    $("#6").hide();
+    $("#5").click(function(){
+      $("#6").toggle();
+    });
+  });
+</script>
+
+<head>
+  <title>UniVaP: Uniform Vaccination Platform</title>
+</head>
+
+<!-- Top navigation bar -->
+<body>
+  <div class="w3-bar w3-black w3-hide-small">
+    <a href="/Catwoman-IMS/index.html" class="w3-bar-item w3-button w3-left">&emsp;Home&emsp;</a>
+    <a href="/Catwoman-IMS/contactpage.php" class="w3-bar-item w3-button w3-left">&emsp;Contact&emsp;</a>
+    <a href="/Catwoman-IMS/about.html" class="w3-bar-item w3-button w3-left">&emsp;About&emsp;</a>
+    <a href="/Catwoman-IMS/loginpage_patient.html" class = "w3-bar-item w3-button w3-right">Patient Log in</a>
+    <a href="/Catwoman-IMS/loginpage_worker.html" class = "w3-bar-item w3-button w3-right">Authenticated Log in</a> 
+  </div>
+
+<!-- UniVaP logo -->
+<div class="container">
+  <header class="w3-container w3-padding-8 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small"></span> UniVaP</h1>
+      <p><b>Unified Vaccination Platform</b></p>
+  </header>
+</div>
+
+<!--FAQs & Contact form-->
+  <section class="all-boxes">
+
+    <!--FAQs-->
+    <div class="box_faqs">
+        <h1>
+          <b>FAQs</b>
+        </h1>
+
+        <label>Click on the questions to show/hide the answers.</label><br><br>
+       
+        <h2><b>Vaccination</b></h2>
+        <label id="1">Can I see my vaccination history in UniVaP?</label><br><br>
+        <label id="2">Yes, when you are logged into your account.</label>
+        <h2><b>Account</b></h2>
+        <label id="3">Is it possible to change my email address and/or phone number in UniVaP?</label><br><br>
+        <label id="4">Yes, patients can change their email address and phone number from the profile page.</label>
+        <h2><b>Reminder</b></h2>
+        <label id="5">How often do I get a reminder about when it is time to book my next vaccination appointment?</label><br><br>
+        <label id="6">You get a reminder once.</label>    
+    </div> 
+   </section> 
+
+<!-- Footer on bottom of page -->
+<div class="footer">
+  <a href="/Catwoman-IMS/privacy.html">Privacy</a>
+  /
+  <a href="/Catwoman-IMS/terms_conditions.html">Terms & Conditions</a>
+</div>
+
